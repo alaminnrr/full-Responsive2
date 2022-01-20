@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    font-size: 2rem;
+    word-spacing: 1rem;
+    background-color: rgb(255,173,0);
+    text-align: center;
+    
+}
+@media only screen and (max-width: 600px){
+    nav{
+        width: 100%;
+        font-size: 1rem;
+    }
+}
+nav a{
+    text-decoration: none;
+}
+.card-body{
+    position: absolute;
+    top: 2%;
+   
+}
+.card {
+   width: 100%;
+}
+@media only screen and (max-width: 600px){
+    .card {
+        width: 100%;
+        
+    }
+}
+.liv{
+    text-align: center;
+}
+@media only screen and (max-width: 600px){
+    .liv {
+        width: 100%;
+        
+    }
+}
+.vip{
+    display: block;
+}
+@media only screen and (max-width: 600px){
+    .vip {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+
+
